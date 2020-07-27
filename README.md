@@ -52,7 +52,7 @@ Deployment: Once the face mask detector is trained, we can then move on to loadi
 Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
 
 ### Project structure
-
+```
 ├── dataset
 │   ├── with_mask [690 entries]
 │   └── without_mask [686 entries]
@@ -70,7 +70,7 @@ Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
 └── Data Augmentation and Model Training.ipynb
 ├── requirements.txt
 └── mask-detector-model.model
-
+```
 ### Important Python Scripts:
 
 I. Data Augmentation and Preprocessing.ipynb: In this notebook Accepts our dataset is taken as input and fine-tuning is donw with MobileNetV2 DNN architecture upon it to create our mask-detector-model.model. A training history evaluation.png containing accuracy/loss curves is also produced for better visualization of Model Evaluation through a plot.Some important processes which we performed here:
@@ -90,12 +90,12 @@ matplotlib: To plot our training curves.
 II. detect_mask_from_webcam.py: Using your webcam, this script applies face mask detection to every frame in the stream using webcom to read the real-time video.
 
 Some command line arguments in this script include:
-
+```
 --image: The path to the input image containing faces for inference
 --face: The path to the face detector model directory (we need to localize faces prior to classifying them)
 --model: The path to the face mask detector model that we trained earlier in this tutorial
 --confidence: An optional probability threshold can be set to override 50% to filter weak face detections
-
+```
 
 ## Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
