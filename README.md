@@ -55,7 +55,7 @@ Deployment: Once the face mask detector is trained, we can then move on to loadi
 
 ### Dataset Resource:
 
-Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
+Link: https://drive.google.com/drive/folders/1FHPJRCab-cyLq8IVz83LkU71gOc7gTS8?usp=sharing
 
 ![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_dataset.jpg)
 
