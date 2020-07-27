@@ -30,6 +30,8 @@ India’s coronavirus cases are increasing in an unimaginable rate and is breaki
 The World Health Organization said that new information showed that protective masks could be a barrier for potentially infectious droplets. The coronavirus primarily spreads through the transmission of respiratory droplets from infected people.On 5th day of June changed its guidelines about the use of protective face masks in public, saying that they must be worn at all places where physical distancing is not possible. The global health body had said in April that there was not enough evidence to show that healthy people should wear masks to shield themselves from the coronavirus.
 
 ![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/WHO.png)
+
+
 Link: [https://twitter.com/i/status/1268986094042992640](https://twitter.com/i/status/1268986094042992640)
 
 
@@ -45,7 +47,7 @@ Training: Here we’ll focus on loading our face mask detection dataset from dis
 
 Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
 
-[https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/WHO.pnghttps://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png](Phases of the Project)
+![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/WHO.pnghttps://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png)
 
 ### Dataset Resource:
 
