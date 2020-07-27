@@ -15,11 +15,14 @@
   * [License](#license)
   * [Resources](#resources)
   
+  
 ## Demo
 Link: [https://indian-currency-prediction.herokuapp.com](https://indian-currency-prediction.herokuapp.com/)
 
+
 ## Overview
 This is a simple image classification project trained on the top of Keras/Tensorflow API with MobileNetV2 deep neural network architecture having weights considered as pre-trained 'imagenet' weights. The trained model (`mask-detector-model.h5`) takes the real-time video from webcam as an input and predicts if the face landmarks in Region of Interest (ROI) is 'Mask' or 'No Mask' with real-time on screen accuracy.
+
 
 ## Motivation
 
@@ -47,13 +50,18 @@ Training: Here we’ll focus on loading our face mask detection dataset from dis
 
 Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
 
-![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png)
+![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png)\
+
 
 ### Dataset Resource:
 
 Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
 
+![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_dataset.jpg)
+
+
 ### Project structure
+
 ```
 ├── dataset
 │   ├── with_mask [690 entries]
@@ -73,6 +81,8 @@ Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
 ├── requirements.txt
 └── mask-detector-model.model
 ```
+
+
 ### Important Python Scripts:
 
 1. Data Augmentation and Preprocessing.ipynb: In this notebook Accepts our dataset is taken as input and fine-tuning is donw with MobileNetV2 DNN architecture upon it to create our mask-detector-model.model. A training history evaluation.png containing accuracy/loss curves is also produced for better visualization of Model Evaluation through a plot.Some important processes which we performed here:
@@ -99,6 +109,7 @@ Some command line arguments in this script include:
 --confidence: An optional probability threshold can be set to override 50% to filter weak face detections
 ```
 
+
 ## Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 
@@ -115,6 +126,7 @@ Open Jupyter Notebook and run Data Augmentation and Preprocessing.ipynb in order
 Run detect_mask_from_webcam.py from the same directory of your project folder in the command prompt in order to test the detector in real- time using the webcam.
 ```
 
+
 ## To Do
 1. This approach reduces our computer vision pipeline to a single step — rather than applying face detection and then our face mask detector model, all we need to do is apply the object detector to give us bounding boxes for people both with_mask and without_mask in a single forward pass of the network.
 
@@ -125,6 +137,7 @@ Run detect_mask_from_webcam.py from the same directory of your project folder in
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/issues/new) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/issues/new). Please include sample queries and their corresponding results.
+
 
 ## Technologies Used
 
@@ -141,9 +154,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=200>](https://jupyter.org/assets/nav_logo.svg) 
 
 
-
 ## Team
-![Ashish Agarwal](https://www.linkedin.com/in/ashish-agarwal-502203113/)
+Ashish Agarwal-![](https://www.linkedin.com/in/ashish-agarwal-502203113/)
+
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
@@ -161,6 +174,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
 
 ## Resources
 
