@@ -138,10 +138,12 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [<img target="_blank" src="http://image-net.org/index_files/logo.jpg" width=200>](http://image-net.org/index_files/logo.jpg) 
 
+[<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=200>](https://jupyter.org/assets/nav_logo.svg) 
+
 
 
 ## Team
-[![Ashish Agarwal](https://www.linkedin.com/in/ashish-agarwal-502203113/)
+![Ashish Agarwal](https://www.linkedin.com/in/ashish-agarwal-502203113/)
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
