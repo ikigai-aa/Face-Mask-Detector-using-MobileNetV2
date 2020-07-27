@@ -47,7 +47,7 @@ Training: Here we’ll focus on loading our face mask detection dataset from dis
 
 Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
 
-![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/WHO.pnghttps://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png)
+![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/images/face_mask_detection_phases.png)
 
 ### Dataset Resource:
 
@@ -75,13 +75,13 @@ Kaggle: https://www.kaggle.com/sumansid/facemask-dataset
 ```
 ### Important Python Scripts:
 
-I. Data Augmentation and Preprocessing.ipynb: In this notebook Accepts our dataset is taken as input and fine-tuning is donw with MobileNetV2 DNN architecture upon it to create our mask-detector-model.model. A training history evaluation.png containing accuracy/loss curves is also produced for better visualization of Model Evaluation through a plot.Some important processes which we performed here:
+1. Data Augmentation and Preprocessing.ipynb: In this notebook Accepts our dataset is taken as input and fine-tuning is donw with MobileNetV2 DNN architecture upon it to create our mask-detector-model.model. A training history evaluation.png containing accuracy/loss curves is also produced for better visualization of Model Evaluation through a plot.Some important processes which we performed here:
 
-1. Data augmentation
-2. Loading the MobilNetV2 classifier (we will fine-tune this model with pre-trained ImageNet weights)
-3. Building a new fully-connected (FC) head
-4. Pre-processing
-5. Loading image data
+a. Data augmentation
+b. Loading the MobilNetV2 classifier (we will fine-tune this model with pre-trained ImageNet weights)
+c. Building a new fully-connected (FC) head
+d. Pre-processing
+e. Loading image data
 
 Libraries Significance:
 
@@ -89,7 +89,7 @@ scikit-learn: for binarizing class labels, segmenting our dataset, and printing 
 imutils: To find and list images in our dataset. 
 matplotlib: To plot our training curves.
 
-II. detect_mask_from_webcam.py: Using your webcam, this script applies face mask detection to every frame in the stream using webcom to read the real-time video.
+2. detect_mask_from_webcam.py: Using your webcam, this script applies face mask detection to every frame in the stream using webcom to read the real-time video.
 
 Some command line arguments in this script include:
 ```
