@@ -157,8 +157,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Team
 Ashish Agarwal
 
-![LinkedIn Profile](https://www.linkedin.com/in/ashish-agarwal-502203113/)
-
+LinkedIn Profile: [https://www.linkedin.com/in/ashish-agarwal-502203113/](https://www.linkedin.com/in/ashish-agarwal-502203113/)
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
