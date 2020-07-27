@@ -155,7 +155,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 
 ## Team
-Ashish Agarwal-![](https://www.linkedin.com/in/ashish-agarwal-502203113/)
+Ashish Agarwal
+
+![LinkedIn Profile](https://www.linkedin.com/in/ashish-agarwal-502203113/)
 
 
 ## License
