@@ -17,7 +17,7 @@
   
   
 ## Demo
-Link: [https://indian-currency-prediction.herokuapp.com](https://indian-currency-prediction.herokuapp.com/)
+Link: [https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/demo%20video.mp4](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/demo%20video.mp4)
 
 
 ## Overview
@@ -126,7 +126,25 @@ Open Jupyter Notebook and run Data Augmentation and Preprocessing.ipynb in order
 Run detect_mask_from_webcam.py from the same directory of your project folder in the command prompt in order to test the detector in real- time using the webcam.
 ```
 
+## Results/Classification Report
 
+```
+              precision    recall  f1-score   support
+
+   with_mask       0.97      1.00      0.99       138
+without_mask       1.00      0.97      0.99       138
+
+    accuracy                           0.99       276
+   macro avg       0.99      0.99      0.99       276
+weighted avg       0.99      0.99      0.99       276
+
+```
+
+## Accuracy/Loss Plot
+
+![](https://github.com/ikigai-aa/Face-Mask-Detector-using-MobileNetV2/blob/master/evaluation.png)\
+
+...
 ## To Do
 1. This approach reduces our computer vision pipeline to a single step — rather than applying face detection and then our face mask detector model, all we need to do is apply the object detector to give us bounding boxes for people both with_mask and without_mask in a single forward pass of the network.
 
